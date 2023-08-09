@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D6B404A22A83CF72005B0E96 /* ZeldaJRPGApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B404A12A83CF72005B0E96 /* ZeldaJRPGApp.swift */; };
+		D6B404A42A83CF72005B0E96 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B404A32A83CF72005B0E96 /* ContentView.swift */; };
+		D6B404A62A83CF78005B0E96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6B404A52A83CF78005B0E96 /* Assets.xcassets */; };
+		D6B404A92A83CF78005B0E96 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6B404A82A83CF78005B0E96 /* Preview Assets.xcassets */; };
+		D6B404B32A83CF79005B0E96 /* ZeldaJRPGTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B404B22A83CF79005B0E96 /* ZeldaJRPGTests.swift */; };
+		D6B404BD2A83CF79005B0E96 /* ZeldaJRPGUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B404BC2A83CF79005B0E96 /* ZeldaJRPGUITests.swift */; };
+		D6B404BF2A83CF79005B0E96 /* ZeldaJRPGUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B404BE2A83CF79005B0E96 /* ZeldaJRPGUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D6B404AF2A83CF79005B0E96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6B404962A83CF72005B0E96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6B4049D2A83CF72005B0E96;
+			remoteInfo = ZeldaJRPG;
+		};
+		D6B404B92A83CF79005B0E96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6B404962A83CF72005B0E96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6B4049D2A83CF72005B0E96;
+			remoteInfo = ZeldaJRPG;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D6B4049E2A83CF72005B0E96 /* ZeldaJRPG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZeldaJRPG.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6B404A12A83CF72005B0E96 /* ZeldaJRPGApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeldaJRPGApp.swift; sourceTree = "<group>"; };
+		D6B404A32A83CF72005B0E96 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D6B404A52A83CF78005B0E96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D6B404A82A83CF78005B0E96 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D6B404AE2A83CF79005B0E96 /* ZeldaJRPGTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZeldaJRPGTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6B404B22A83CF79005B0E96 /* ZeldaJRPGTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeldaJRPGTests.swift; sourceTree = "<group>"; };
+		D6B404B82A83CF79005B0E96 /* ZeldaJRPGUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZeldaJRPGUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6B404BC2A83CF79005B0E96 /* ZeldaJRPGUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeldaJRPGUITests.swift; sourceTree = "<group>"; };
+		D6B404BE2A83CF79005B0E96 /* ZeldaJRPGUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeldaJRPGUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6B4049B2A83CF72005B0E96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6B404AB2A83CF79005B0E96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6B404B52A83CF79005B0E96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D6B404952A83CF72005B0E96 = {
+			isa = PBXGroup;
+			children = (
+				D6B404A02A83CF72005B0E96 /* ZeldaJRPG */,
+				D6B404B12A83CF79005B0E96 /* ZeldaJRPGTests */,
+				D6B404BB2A83CF79005B0E96 /* ZeldaJRPGUITests */,
+				D6B4049F2A83CF72005B0E96 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D6B4049F2A83CF72005B0E96 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6B4049E2A83CF72005B0E96 /* ZeldaJRPG.app */,
+				D6B404AE2A83CF79005B0E96 /* ZeldaJRPGTests.xctest */,
+				D6B404B82A83CF79005B0E96 /* ZeldaJRPGUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D6B404A02A83CF72005B0E96 /* ZeldaJRPG */ = {
+			isa = PBXGroup;
+			children = (
+				D6B404A12A83CF72005B0E96 /* ZeldaJRPGApp.swift */,
+				D6B404A32A83CF72005B0E96 /* ContentView.swift */,
+				D6B404A52A83CF78005B0E96 /* Assets.xcassets */,
+				D6B404A72A83CF78005B0E96 /* Preview Content */,
+			);
+			path = ZeldaJRPG;
+			sourceTree = "<group>";
+		};
+		D6B404A72A83CF78005B0E96 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D6B404A82A83CF78005B0E96 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D6B404B12A83CF79005B0E96 /* ZeldaJRPGTests */ = {
+			isa = PBXGroup;
+			children = (
+				D6B404B22A83CF79005B0E96 /* ZeldaJRPGTests.swift */,
+			);
+			path = ZeldaJRPGTests;
+			sourceTree = "<group>";
+		};
+		D6B404BB2A83CF79005B0E96 /* ZeldaJRPGUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D6B404BC2A83CF79005B0E96 /* ZeldaJRPGUITests.swift */,
+				D6B404BE2A83CF79005B0E96 /* ZeldaJRPGUITestsLaunchTests.swift */,
+			);
+			path = ZeldaJRPGUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D6B4049D2A83CF72005B0E96 /* ZeldaJRPG */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6B404C22A83CF79005B0E96 /* Build configuration list for PBXNativeTarget "ZeldaJRPG" */;
+			buildPhases = (
+				D6B4049A2A83CF72005B0E96 /* Sources */,
+				D6B4049B2A83CF72005B0E96 /* Frameworks */,
+				D6B4049C2A83CF72005B0E96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZeldaJRPG;
+			productName = ZeldaJRPG;
+			productReference = D6B4049E2A83CF72005B0E96 /* ZeldaJRPG.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D6B404AD2A83CF79005B0E96 /* ZeldaJRPGTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6B404C52A83CF79005B0E96 /* Build configuration list for PBXNativeTarget "ZeldaJRPGTests" */;
+			buildPhases = (
+				D6B404AA2A83CF79005B0E96 /* Sources */,
+				D6B404AB2A83CF79005B0E96 /* Frameworks */,
+				D6B404AC2A83CF79005B0E96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6B404B02A83CF79005B0E96 /* PBXTargetDependency */,
+			);
+			name = ZeldaJRPGTests;
+			productName = ZeldaJRPGTests;
+			productReference = D6B404AE2A83CF79005B0E96 /* ZeldaJRPGTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D6B404B72A83CF79005B0E96 /* ZeldaJRPGUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6B404C82A83CF79005B0E96 /* Build configuration list for PBXNativeTarget "ZeldaJRPGUITests" */;
+			buildPhases = (
+				D6B404B42A83CF79005B0E96 /* Sources */,
+				D6B404B52A83CF79005B0E96 /* Frameworks */,
+				D6B404B62A83CF79005B0E96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6B404BA2A83CF79005B0E96 /* PBXTargetDependency */,
+			);
+			name = ZeldaJRPGUITests;
+			productName = ZeldaJRPGUITests;
+			productReference = D6B404B82A83CF79005B0E96 /* ZeldaJRPGUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6B404962A83CF72005B0E96 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					D6B4049D2A83CF72005B0E96 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					D6B404AD2A83CF79005B0E96 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = D6B4049D2A83CF72005B0E96;
+					};
+					D6B404B72A83CF79005B0E96 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = D6B4049D2A83CF72005B0E96;
+					};
+				};
+			};
+			buildConfigurationList = D6B404992A83CF72005B0E96 /* Build configuration list for PBXProject "ZeldaJRPG" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D6B404952A83CF72005B0E96;
+			productRefGroup = D6B4049F2A83CF72005B0E96 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6B4049D2A83CF72005B0E96 /* ZeldaJRPG */,
+				D6B404AD2A83CF79005B0E96 /* ZeldaJRPGTests */,
+				D6B404B72A83CF79005B0E96 /* ZeldaJRPGUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D6B4049C2A83CF72005B0E96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6B404A92A83CF78005B0E96 /* Preview Assets.xcassets in Resources */,
+				D6B404A62A83CF78005B0E96 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6B404AC2A83CF79005B0E96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6B404B62A83CF79005B0E96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6B4049A2A83CF72005B0E96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6B404A42A83CF72005B0E96 /* ContentView.swift in Sources */,
+				D6B404A22A83CF72005B0E96 /* ZeldaJRPGApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6B404AA2A83CF79005B0E96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6B404B32A83CF79005B0E96 /* ZeldaJRPGTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6B404B42A83CF79005B0E96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6B404BF2A83CF79005B0E96 /* ZeldaJRPGUITestsLaunchTests.swift in Sources */,
+				D6B404BD2A83CF79005B0E96 /* ZeldaJRPGUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D6B404B02A83CF79005B0E96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6B4049D2A83CF72005B0E96 /* ZeldaJRPG */;
+			targetProxy = D6B404AF2A83CF79005B0E96 /* PBXContainerItemProxy */;
+		};
+		D6B404BA2A83CF79005B0E96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6B4049D2A83CF72005B0E96 /* ZeldaJRPG */;
+			targetProxy = D6B404B92A83CF79005B0E96 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D6B404C02A83CF79005B0E96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D6B404C12A83CF79005B0E96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D6B404C32A83CF79005B0E96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ZeldaJRPG/Preview Content\"";
+				DEVELOPMENT_TEAM = 588PCRUA35;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.LinwoodTechnologies.ZeldaJRPG;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D6B404C42A83CF79005B0E96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ZeldaJRPG/Preview Content\"";
+				DEVELOPMENT_TEAM = 588PCRUA35;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.LinwoodTechnologies.ZeldaJRPG;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D6B404C62A83CF79005B0E96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 588PCRUA35;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.LinwoodTechnologies.ZeldaJRPGTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZeldaJRPG.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ZeldaJRPG";
+			};
+			name = Debug;
+		};
+		D6B404C72A83CF79005B0E96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 588PCRUA35;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.LinwoodTechnologies.ZeldaJRPGTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZeldaJRPG.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ZeldaJRPG";
+			};
+			name = Release;
+		};
+		D6B404C92A83CF79005B0E96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 588PCRUA35;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.LinwoodTechnologies.ZeldaJRPGUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZeldaJRPG;
+			};
+			name = Debug;
+		};
+		D6B404CA2A83CF79005B0E96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 588PCRUA35;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.LinwoodTechnologies.ZeldaJRPGUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZeldaJRPG;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D6B404992A83CF72005B0E96 /* Build configuration list for PBXProject "ZeldaJRPG" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6B404C02A83CF79005B0E96 /* Debug */,
+				D6B404C12A83CF79005B0E96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6B404C22A83CF79005B0E96 /* Build configuration list for PBXNativeTarget "ZeldaJRPG" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6B404C32A83CF79005B0E96 /* Debug */,
+				D6B404C42A83CF79005B0E96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6B404C52A83CF79005B0E96 /* Build configuration list for PBXNativeTarget "ZeldaJRPGTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6B404C62A83CF79005B0E96 /* Debug */,
+				D6B404C72A83CF79005B0E96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6B404C82A83CF79005B0E96 /* Build configuration list for PBXNativeTarget "ZeldaJRPGUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6B404C92A83CF79005B0E96 /* Debug */,
+				D6B404CA2A83CF79005B0E96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D6B404962A83CF72005B0E96 /* Project object */;
+}
