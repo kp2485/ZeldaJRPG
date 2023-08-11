@@ -16,14 +16,14 @@ struct ZeldaEnemy {
     let affinity: DamageType
     let weaponType: WeaponType
     
-    var currentHealth: UInt32
-    var maxHealth: UInt32
-    var currentMagic: UInt32
-    var maxMagic: UInt32
-    var currentEndurance: UInt32
-    var maxEndurance: UInt32
+    var currentHealth: UInt
+    var maxHealth: UInt
+    var currentMagic: UInt
+    var maxMagic: UInt
+    var currentEndurance: UInt
+    var maxEndurance: UInt
     
-    var experienceReward: UInt32
+    var experienceReward: UInt
     
     var skills: [Skill]
 }

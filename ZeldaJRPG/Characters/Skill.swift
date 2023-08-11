@@ -10,7 +10,7 @@ import Foundation
 struct Skill {
     let name: String
     let description: String
-    let healthCost: UInt32
-    let magicCost: UInt32
-    let enduranceCost: UInt32
+    let healthCost: UInt
+    let magicCost: UInt
+    let enduranceCost: UInt
 }

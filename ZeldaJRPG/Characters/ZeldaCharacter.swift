@@ -18,14 +18,25 @@ struct ZeldaCharacter {
     var game: Game
     let weaknesses: [DamageType]
     
-    var currentHealth: UInt32
-    var maxHealth: UInt32
-    var currentMagic: UInt32
-    var maxMagic: UInt32
-    var currentEndurance: UInt32
-    var maxEndurance: UInt32
+    var currentHealth: UInt
+    var maxHealth: UInt
+    var currentMagic: UInt
+    var maxMagic: UInt
+    var currentEndurance: UInt
+    var maxEndurance: UInt
     
-    var experience: UInt = 0
+    var experience: Double = 0.0
+    var level: UInt8 {
+        var currentLevel: UInt8 = 1
+        var threshold: Double = 1000.0
+        
+        while experience >= threshold * 2 {
+            currentLevel += 1
+            threshold *= 2
+        }
+        
+        return currentLevel
+    }
     
     var skills: [Skill]
 }
