@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D60E78702A86B23E00C3393F /* TargetType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60E786F2A86B23E00C3393F /* TargetType.swift */; };
+		D60E78722A86B30100C3393F /* Effect.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60E78712A86B30100C3393F /* Effect.swift */; };
 		D6B404A22A83CF72005B0E96 /* ZeldaJRPGApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B404A12A83CF72005B0E96 /* ZeldaJRPGApp.swift */; };
 		D6B404A42A83CF72005B0E96 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B404A32A83CF72005B0E96 /* ContentView.swift */; };
 		D6B404A62A83CF78005B0E96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6B404A52A83CF78005B0E96 /* Assets.xcassets */; };
@@ -48,6 +49,7 @@
 
 /* Begin PBXFileReference section */
 		D60E786F2A86B23E00C3393F /* TargetType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetType.swift; sourceTree = "<group>"; };
+		D60E78712A86B30100C3393F /* Effect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Effect.swift; sourceTree = "<group>"; };
 		D6B4049E2A83CF72005B0E96 /* ZeldaJRPG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZeldaJRPG.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6B404A12A83CF72005B0E96 /* ZeldaJRPGApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeldaJRPGApp.swift; sourceTree = "<group>"; };
 		D6B404A32A83CF72005B0E96 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -126,6 +128,7 @@
 				D6B404DC2A83E281005B0E96 /* DamageType.swift */,
 				D6B404E02A83F69F005B0E96 /* WeaponType.swift */,
 				D60E786F2A86B23E00C3393F /* TargetType.swift */,
+				D60E78712A86B30100C3393F /* Effect.swift */,
 				D6B404A52A83CF78005B0E96 /* Assets.xcassets */,
 				D6B404A72A83CF78005B0E96 /* Preview Content */,
 			);
@@ -308,6 +311,7 @@
 				D6B404DD2A83E281005B0E96 /* DamageType.swift in Sources */,
 				D6B404CF2A83D285005B0E96 /* Race.swift in Sources */,
 				D6B404DF2A83F505005B0E96 /* EnemyType.swift in Sources */,
+				D60E78722A86B30100C3393F /* Effect.swift in Sources */,
 				D6B404D12A83D375005B0E96 /* Demonym.swift in Sources */,
 				D6B404CD2A83D166005B0E96 /* ZeldaCharacter.swift in Sources */,
 				D6B404DB2A83E1C2005B0E96 /* ZeldaEnemy.swift in Sources */,

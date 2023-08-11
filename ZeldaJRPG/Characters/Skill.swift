@@ -14,4 +14,5 @@ struct Skill {
     let magicCost: UInt
     let enduranceCost: UInt
     let targetType: TargetType
+    let effects: [Effect]
 }
