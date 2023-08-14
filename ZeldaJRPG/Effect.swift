@@ -10,4 +10,5 @@ import Foundation
 struct Effect {
     let target: String
     let modifiedBy: Double
+    let duration: UInt8
 }
