@@ -14,9 +14,11 @@ struct ZeldaCharacter {
     let demonym: Demonym
     let role: Role
     let gender: Gender
-    var familyMembers: [ZeldaCharacter]
+    var familyMembers: [String]
     var game: Game
-    let weaknesses: [DamageType]
+    let weaknesses: [EffectType]
+    
+    var isUnlocked: Bool
     
     var currentHealth: UInt
     var maxHealth: UInt
@@ -24,6 +26,8 @@ struct ZeldaCharacter {
     var maxMagic: UInt
     var currentEndurance: UInt
     var maxEndurance: UInt
+    var stunDuration: UInt8 = 0
+    var deflectionBonus: Double = 0.0
     
     var experience: Double = 0.0
     var level: UInt8 {

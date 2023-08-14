@@ -21,6 +21,7 @@ enum Role: String {
     case Knights = "Knights"
     case Leaders = "Leaders"
     case Maidens = "Maidens"
+    case MainCharacter = "Main Character"
     case Merchants = "Merchants"
     case Musicians = "Musicians"
     case Pirates = "Pirates"

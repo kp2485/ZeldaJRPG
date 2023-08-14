@@ -13,7 +13,7 @@ struct ZeldaEnemy {
     let enemyType: EnemyType
     let species: EnemySpecies
     var game: Game
-    let affinity: DamageType
+    let affinity: EffectType
     let weaponType: WeaponType
     
     var currentHealth: UInt
