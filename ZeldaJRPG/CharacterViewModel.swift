@@ -11,13 +11,13 @@ class CharacterViewModel: ObservableObject {
     @Published var characters: [ZeldaCharacter] = [
     ZeldaCharacter(
         name: "Link",
+        release: .TheLegendOfZelda,
         imageName: "Link",
         race: .hylian,
         demonym: .hyruleans,
         role: .MainCharacter,
         gender: .male,
         familyMembers: ["Uncle", "Father", "Mother", "Grandma", "Aryll"],
-        game: .TheLegendOfZelda,
         weaknesses: [],
         isUnlocked: true,
         currentHealth: 1000,

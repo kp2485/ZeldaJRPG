@@ -9,17 +9,18 @@ import Foundation
 
 struct ZeldaCharacter {
     let name: String
+    let release: Game
     let imageName: String
     let race: Race
     let demonym: Demonym
     let role: Role
     let gender: Gender
-    var familyMembers: [String]
-    var game: Game
+    let familyMembers: [String]
     let weaknesses: [EffectType]
     
     var isUnlocked: Bool
     
+    // Character State
     var currentHealth: UInt
     var maxHealth: UInt
     var currentMagic: UInt
@@ -27,7 +28,6 @@ struct ZeldaCharacter {
     var currentEndurance: UInt
     var maxEndurance: UInt
     var stunDuration: UInt8 = 0
-    var deflectionBonus: Double = 0.0
     
     var experience: Double = 0.0
     var level: UInt8 {
@@ -41,6 +41,11 @@ struct ZeldaCharacter {
         
         return currentLevel
     }
+    
+    // Character Bonuses & Penalties
+    var deflectionBonus: Double = 0.0
+    
+    
     
     var skills: [Skill]
 }
