@@ -7,7 +7,8 @@
 
 import Foundation
 
-struct ZeldaCharacter {
+struct ZeldaCharacter: Identifiable {
+    let id = UUID()
     let name: String
     let release: Game
     let imageName: String
@@ -44,8 +45,6 @@ struct ZeldaCharacter {
     
     // Character Bonuses & Penalties
     var deflectionBonus: Double = 0.0
-    
-    
     
     var skills: [Skill]
 }
