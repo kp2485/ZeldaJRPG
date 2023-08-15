@@ -1,5 +1,5 @@
 //
-//  CharacterViewModel.swift
+//  CharacterStore.swift
 //  ZeldaJRPG
 //
 //  Created by Kyle Peterson on 8/14/23.
@@ -7,7 +7,7 @@
 
 import Foundation
 
-class CharacterViewModel: ObservableObject {
+class CharacterStore: ObservableObject {
     @Published var characters: [ZeldaCharacter] = [
     ZeldaCharacter(
         name: "Link",

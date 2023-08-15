@@ -9,11 +9,9 @@ import SwiftUI
 
 struct CharacterView: View {
     
-    @EnvironmentObject var characterViewModel: CharacterViewModel
+    @EnvironmentObject var characterViewModel: CharacterStore
     
     var screenwidth = UIScreen.main.bounds.width
-    
-    //ronaldfoster22@outlook.com
     
     let columns = [
         GridItem(.fixed(50)),
@@ -60,6 +58,6 @@ struct CharacterView_Previews: PreviewProvider {
     
     static var previews: some View {
         CharacterView()
-            .environmentObject(CharacterViewModel())
+            .environmentObject(CharacterStore())
     }
 }

@@ -30,7 +30,7 @@ struct CharacterGridView: View {
 }
 
 struct CharacterGridView_Previews: PreviewProvider {
-    static let character = CharacterViewModel().characters[0]
+    static let character = CharacterStore().characters[0]
     
     static var previews: some View {
         CharacterGridView(character: character)

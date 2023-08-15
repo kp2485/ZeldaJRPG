@@ -12,7 +12,7 @@ struct ZeldaJRPGApp: App {
     var body: some Scene {
         WindowGroup {
             CharacterView()
-                .environmentObject(CharacterViewModel())
+                .environmentObject(CharacterStore())
         }
     }
 }
