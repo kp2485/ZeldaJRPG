@@ -35,8 +35,20 @@ class EnemyStore: ObservableObject {
               targetType: .enemyTarget,
               probability: 0.75,
               effects: [
-              Effect(target: "currentHealth", modifiedBy: -1, duration: 1)
+              Effect(target: "currentHealth", modifiedBy: -2, duration: 1)
               ],
+              cooldown: 0),
+        Skill(name: "Tentacle Lash",
+              description: "Don't get too close!",
+              unlockLevel: 0,
+              healthCost: 0,
+              magicCost: 0,
+              enduranceCost: 0,
+              rupeeCost: 0,
+              targetType: .enemyTarget,
+              probability: 1.0,
+              effects: [
+              Effect(target: "currentHealth", modifiedBy: -2, duration: 1)],
               cooldown: 0)
         ])
     ]

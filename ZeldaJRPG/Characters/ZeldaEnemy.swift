@@ -24,6 +24,8 @@ struct ZeldaEnemy: Identifiable {
     var currentEndurance: UInt
     var maxEndurance: UInt
     
+    var level: UInt = 1
+    
     var experienceReward: UInt
     
     var skills: [Skill]

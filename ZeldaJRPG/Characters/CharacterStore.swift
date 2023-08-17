@@ -30,8 +30,8 @@ class CharacterStore: ObservableObject {
         maxEndurance: 100,
         skills: [
             Skill(
-                name: "Slash",
-                description: "A sword attack made with a slashing motion",
+                name: "Thrust",
+                description: "A quick sword attack targeting one enemy",
                 unlockLevel: 1,
                 healthCost: 0,
                 magicCost: 0,
@@ -44,7 +44,7 @@ class CharacterStore: ObservableObject {
             ),
             Skill(
                 name: "Boomerang Toss",
-                description: "",
+                description: "Hit multiple enemies with one toss",
                 unlockLevel: 4,
                 healthCost: 0,
                 magicCost: 0,
@@ -77,7 +77,7 @@ class CharacterStore: ObservableObject {
             ),
             Skill(
                 name: "Shield Block",
-                description: "",
+                description: "Increase your deflection bonus for 2 turns",
                 unlockLevel: 0,
                 healthCost: 0,
                 magicCost: 0,
