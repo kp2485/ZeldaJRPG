@@ -15,5 +15,6 @@ enum WeaponType: String {
     case Club = "Club"
     case Spear = "Spear"
     case Sword = "Sword"
+    case Rock = "Rock"
 }
 

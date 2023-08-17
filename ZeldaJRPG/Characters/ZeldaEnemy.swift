@@ -7,12 +7,13 @@
 
 import Foundation
 
-struct ZeldaEnemy {
+struct ZeldaEnemy: Identifiable {
+    let id = UUID()
     let name: String
+    var release: Game
     let imageName: String
     let enemyType: EnemyType
     let species: EnemySpecies
-    var game: Game
     let affinity: EffectType
     let weaponType: WeaponType
     

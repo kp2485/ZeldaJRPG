@@ -12,7 +12,7 @@ class CharacterStore: ObservableObject {
     ZeldaCharacter(
         name: "Link",
         release: .TheLegendOfZelda,
-        imageName: "Link",
+        imageName: "TLOZ-link",
         race: .hylian,
         demonym: .hyruleans,
         role: .MainCharacter,
@@ -20,12 +20,14 @@ class CharacterStore: ObservableObject {
         familyMembers: ["Uncle", "Father", "Mother", "Grandma", "Aryll"],
         weaknesses: [],
         isUnlocked: true,
-        currentHealth: 1000,
-        maxHealth: 1000,
-        currentMagic: 250,
-        maxMagic: 250,
-        currentEndurance: 750,
-        maxEndurance: 750,
+        
+        // 1 health = 1/4 heart
+        currentHealth: 12,
+        maxHealth: 12,
+        currentMagic: 0,
+        maxMagic: 0,
+        currentEndurance: 100,
+        maxEndurance: 100,
         skills: [
             Skill(
                 name: "Slash",
@@ -33,10 +35,11 @@ class CharacterStore: ObservableObject {
                 unlockLevel: 1,
                 healthCost: 0,
                 magicCost: 0,
-                enduranceCost: 25,
+                enduranceCost: 5,
+                rupeeCost: 0,
                 targetType: .enemyTarget,
                 probability: 0.95,
-                effects: [Effect(target: "currentHealth", modifiedBy: -50, duration: 0)],
+                effects: [Effect(target: "currentHealth", modifiedBy: -2, duration: 1)],
                 cooldown: 0
             ),
             Skill(
@@ -45,13 +48,14 @@ class CharacterStore: ObservableObject {
                 unlockLevel: 4,
                 healthCost: 0,
                 magicCost: 0,
-                enduranceCost: 50,
+                enduranceCost: 5,
+                rupeeCost: 0,
                 targetType: .allEnemies,
                 probability: 0.75,
                 effects: [
-                    Effect(target: "currentHealth", modifiedBy: -25, duration: 0),
-                    Effect(target: "currentStamina", modifiedBy: -25, duration: 0),
-                    Effect(target: "stunDuration", modifiedBy: 1, duration: 0)
+                    Effect(target: "currentHealth", modifiedBy: -1, duration: 1),
+                    Effect(target: "currentEndurance", modifiedBy: -25, duration: 1),
+                    Effect(target: "stunDuration", modifiedBy: 1, duration: 1)
                 ],
                 cooldown: 1
             ),
@@ -61,12 +65,13 @@ class CharacterStore: ObservableObject {
                 unlockLevel: 8,
                 healthCost: 0,
                 magicCost: 0,
-                enduranceCost: 50,
+                enduranceCost: 10,
+                rupeeCost: 1,
                 targetType: .enemyTarget,
                 probability: 0.85,
                 effects: [
-                    Effect(target: "currentHealth", modifiedBy: -100, duration: 0),
-                    Effect(target: "currentStamina", modifiedBy: -50, duration: 13)
+                    Effect(target: "currentHealth", modifiedBy: -4, duration: 1),
+                    Effect(target: "currentEndurance", modifiedBy: -10, duration: 1)
                 ],
                 cooldown: 3
             ),
@@ -77,10 +82,11 @@ class CharacterStore: ObservableObject {
                 healthCost: 0,
                 magicCost: 0,
                 enduranceCost: 25,
+                rupeeCost: 0,
                 targetType: .selfTarget,
                 probability: 1.0,
-                effects: [Effect(target: "deflectionBonus", modifiedBy: 0.6, duration: 1)],
-                cooldown: 0
+                effects: [Effect(target: "deflectionBonus", modifiedBy: 0.6, duration: 2)],
+                cooldown: 1
             )
         ]
     )
