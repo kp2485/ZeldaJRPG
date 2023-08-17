@@ -16,7 +16,7 @@ struct ZeldaCharacter: Identifiable {
     let demonym: Demonym
     let role: Role
     let familyMembers: [String]
-    let weaknesses: [EffectType]
+    let affinity: [EffectType]
     
     var isUnlocked: Bool
     
