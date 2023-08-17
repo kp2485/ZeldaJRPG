@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct ZeldaCharacter: Identifiable {
+struct ZeldaCharacter: ZeldaEntity {
     let id = UUID()
     let name: String
     let release: Game
