@@ -11,7 +11,7 @@ import SwiftUI
 struct ZeldaJRPGApp: App {
     var body: some Scene {
         WindowGroup {
-            CharacterView()
+            CharacterSelectionView()
                 .environmentObject(CharacterStore())
         }
     }

@@ -1,5 +1,5 @@
 //
-//  CharacterView.swift
+//  CharacterSelectionView.swift
 //  ZeldaJRPG
 //
 //  Created by Kyle Peterson on 8/14/23.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct CharacterView: View {
+struct CharacterSelectionView: View {
     
     @EnvironmentObject var characterViewModel: CharacterStore
     
@@ -54,10 +54,10 @@ struct CharacterView: View {
     }
 }
 
-struct CharacterView_Previews: PreviewProvider {
+struct CharacterSelectionView_Previews: PreviewProvider {
     
     static var previews: some View {
-        CharacterView()
+        CharacterSelectionView()
             .environmentObject(CharacterStore())
     }
 }
