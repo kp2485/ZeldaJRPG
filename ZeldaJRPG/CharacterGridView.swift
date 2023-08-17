@@ -20,6 +20,8 @@ struct CharacterGridView: View {
                 }
         } else {
             Image(character.imageName + "Bust")
+                .resizable()
+                .scaledToFit()
                 .mask {
                     RoundedRectangle(cornerRadius: 10)
                 }

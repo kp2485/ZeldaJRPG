@@ -41,9 +41,11 @@ struct ZeldaCharacter: Identifiable {
         
         return currentLevel
     }
+    var rupees: UInt = 0
+    var bombs: UInt = 0
     
-    // Character Bonuses & Penalties
-    var deflectionBonus: Double = 0.0
+    // Character Bonuses (+) & Penalties (-)
+    var deflectionRating: Double = 0.0
     
     var skills: [Skill]
 }

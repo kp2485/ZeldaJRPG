@@ -85,12 +85,12 @@ class CharacterStore: ObservableObject {
                 rupeeCost: 0,
                 targetType: .selfTarget,
                 probability: 1.0,
-                effects: [Effect(target: "deflectionBonus", modifiedBy: 0.6, duration: 2)],
+                effects: [Effect(target: "deflectionRating", modifiedBy: 0.6, duration: 2)],
                 cooldown: 1
             )
         ]
-    ),
+    )
     
-    ZeldaCharacter(name: <#T##String#>, release: <#T##Game#>, imageName: <#T##String#>, race: <#T##Race#>, demonym: <#T##Demonym#>, role: <#T##Role#>, familyMembers: <#T##[String]#>, weaknesses: <#T##[EffectType]#>, isUnlocked: <#T##Bool#>, currentHealth: <#T##UInt#>, maxHealth: <#T##UInt#>, currentMagic: <#T##UInt#>, maxMagic: <#T##UInt#>, currentEndurance: <#T##UInt#>, maxEndurance: <#T##UInt#>, skills: <#T##[Skill]#>)
+    // Add next character here
     ]
 }
