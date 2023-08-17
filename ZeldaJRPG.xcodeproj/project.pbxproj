@@ -24,7 +24,6 @@
 		D6B404CF2A83D285005B0E96 /* Race.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B404CE2A83D285005B0E96 /* Race.swift */; };
 		D6B404D12A83D375005B0E96 /* Demonym.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B404D02A83D375005B0E96 /* Demonym.swift */; };
 		D6B404D32A83D479005B0E96 /* Role.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B404D22A83D479005B0E96 /* Role.swift */; };
-		D6B404D52A83D57F005B0E96 /* Gender.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B404D42A83D57F005B0E96 /* Gender.swift */; };
 		D6B404D72A83D815005B0E96 /* Skill.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B404D62A83D815005B0E96 /* Skill.swift */; };
 		D6B404D92A83DB3E005B0E96 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B404D82A83DB3E005B0E96 /* Game.swift */; };
 		D6B404DB2A83E1C2005B0E96 /* ZeldaEnemy.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B404DA2A83E1C2005B0E96 /* ZeldaEnemy.swift */; };
@@ -72,7 +71,6 @@
 		D6B404CE2A83D285005B0E96 /* Race.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Race.swift; sourceTree = "<group>"; };
 		D6B404D02A83D375005B0E96 /* Demonym.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demonym.swift; sourceTree = "<group>"; };
 		D6B404D22A83D479005B0E96 /* Role.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Role.swift; sourceTree = "<group>"; };
-		D6B404D42A83D57F005B0E96 /* Gender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gender.swift; sourceTree = "<group>"; };
 		D6B404D62A83D815005B0E96 /* Skill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Skill.swift; sourceTree = "<group>"; };
 		D6B404D82A83DB3E005B0E96 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		D6B404DA2A83E1C2005B0E96 /* ZeldaEnemy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeldaEnemy.swift; sourceTree = "<group>"; };
@@ -178,7 +176,6 @@
 				D6B404CE2A83D285005B0E96 /* Race.swift */,
 				D6B404D02A83D375005B0E96 /* Demonym.swift */,
 				D6B404D22A83D479005B0E96 /* Role.swift */,
-				D6B404D42A83D57F005B0E96 /* Gender.swift */,
 				D6B404DA2A83E1C2005B0E96 /* ZeldaEnemy.swift */,
 				D60E78792A8C251600C3393F /* EnemyStore.swift */,
 				D6B404DE2A83F505005B0E96 /* EnemyType.swift */,
@@ -336,7 +333,6 @@
 				D6B404D72A83D815005B0E96 /* Skill.swift in Sources */,
 				D6B404D32A83D479005B0E96 /* Role.swift in Sources */,
 				D6B404E12A83F69F005B0E96 /* WeaponType.swift in Sources */,
-				D6B404D52A83D57F005B0E96 /* Gender.swift in Sources */,
 				D60E787A2A8C251600C3393F /* EnemyStore.swift in Sources */,
 				D6B404E32A83F802005B0E96 /* EnemySpecies.swift in Sources */,
 			);

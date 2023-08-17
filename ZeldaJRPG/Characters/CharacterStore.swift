@@ -9,6 +9,7 @@ import Foundation
 
 class CharacterStore: ObservableObject {
     @Published var characters: [ZeldaCharacter] = [
+        
     ZeldaCharacter(
         name: "Link",
         release: .TheLegendOfZelda,
@@ -16,7 +17,6 @@ class CharacterStore: ObservableObject {
         race: .hylian,
         demonym: .hyruleans,
         role: .MainCharacter,
-        gender: .male,
         familyMembers: ["Uncle", "Father", "Mother", "Grandma", "Aryll"],
         weaknesses: [],
         isUnlocked: true,
@@ -89,6 +89,8 @@ class CharacterStore: ObservableObject {
                 cooldown: 1
             )
         ]
-    )
+    ),
+    
+    ZeldaCharacter(name: <#T##String#>, release: <#T##Game#>, imageName: <#T##String#>, race: <#T##Race#>, demonym: <#T##Demonym#>, role: <#T##Role#>, familyMembers: <#T##[String]#>, weaknesses: <#T##[EffectType]#>, isUnlocked: <#T##Bool#>, currentHealth: <#T##UInt#>, maxHealth: <#T##UInt#>, currentMagic: <#T##UInt#>, maxMagic: <#T##UInt#>, currentEndurance: <#T##UInt#>, maxEndurance: <#T##UInt#>, skills: <#T##[Skill]#>)
     ]
 }

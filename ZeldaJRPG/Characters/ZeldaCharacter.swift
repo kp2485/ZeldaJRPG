@@ -15,7 +15,6 @@ struct ZeldaCharacter: Identifiable {
     let race: Race
     let demonym: Demonym
     let role: Role
-    let gender: Gender
     let familyMembers: [String]
     let weaknesses: [EffectType]
     
