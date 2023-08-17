@@ -25,10 +25,25 @@ struct ZeldaEnemy: ZeldaEntity {
     var maxMagic: UInt
     var currentEndurance: UInt
     var maxEndurance: UInt
+    var stunDuration: UInt8 = 0
     
-    var level: UInt = 1
+    var experience: Double = 0.0
+    var level: UInt8 {
+        var currentLevel: UInt8 = 1
+        var threshold: Double = 1000.0
+        
+        while experience >= threshold * 2 {
+            currentLevel += 1
+            threshold *= 2
+        }
+        
+        return currentLevel
+    }
+    
+    // Enemy Bonuses (+) & Penalties (-)
+    var deflectionRating: Double = 0.0
     
     var experienceReward: UInt
     
-    var skills: [Skill]
+    let skills: [Skill]
 }

@@ -28,6 +28,7 @@ class CharacterStore: ObservableObject {
             maxMagic: 0,
             currentEndurance: 100,
             maxEndurance: 100,
+            experienceReward: 1000,
             skills: [
                 Skill(
                     name: "Thrust",
