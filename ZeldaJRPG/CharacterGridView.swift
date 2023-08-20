@@ -15,6 +15,8 @@ struct CharacterGridView: View {
     var body: some View {
         if character.isUnlocked {
             Image(character.imageName + "Bust")
+                .resizable()
+                .scaledToFit()
                 .mask {
                     RoundedRectangle(cornerRadius: 10)
                 }

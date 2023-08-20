@@ -36,6 +36,7 @@ struct CharacterSelectionView: View {
                         RoundedRectangle(cornerRadius: 10)
                             .padding(.horizontal, 5)
                             .frame(width: screenwidth / 5)
+                            .foregroundColor(.gray)
                     }
                     
                 }
@@ -45,6 +46,7 @@ struct CharacterSelectionView: View {
                     LazyVGrid(columns: columns) {
                         ForEach(characterViewModel.characters) { character in
                             CharacterGridView(character: character)
+                                .frame(width: screenwidth / 5)
                         }
                     }
                 }

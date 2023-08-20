@@ -8,6 +8,7 @@
 import Foundation
 
 struct ZeldaCharacter: ZeldaEntity {
+
     let id = UUID()
     let name: String
     let release: Game
@@ -50,4 +51,8 @@ struct ZeldaCharacter: ZeldaEntity {
     var experienceReward: UInt
     
     let skills: [Skill]
+    
+    static func == (lhs: ZeldaCharacter, rhs: ZeldaCharacter) -> Bool {
+        return lhs.id == rhs.id
+    }
 }

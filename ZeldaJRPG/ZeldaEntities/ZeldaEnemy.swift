@@ -46,4 +46,8 @@ struct ZeldaEnemy: ZeldaEntity {
     var experienceReward: UInt
     
     let skills: [Skill]
+    
+    static func == (lhs: ZeldaEnemy, rhs: ZeldaEnemy) -> Bool {
+        return lhs.id == rhs.id
+    }
 }

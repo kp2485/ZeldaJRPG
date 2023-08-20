@@ -7,7 +7,7 @@
 
 import Foundation
 
-protocol ZeldaEntity: Identifiable {
+protocol ZeldaEntity: Identifiable, Equatable {
     var id: UUID { get }
     var name: String { get }
     var release: Game { get }
