@@ -8,7 +8,7 @@
 import Foundation
 
 struct ZeldaCharacter: ZeldaEntity {
-
+    
     let id = UUID()
     let name: String
     let release: Game
@@ -52,7 +52,14 @@ struct ZeldaCharacter: ZeldaEntity {
     
     let skills: [Skill]
     
+    // Protocol requirements
     static func == (lhs: ZeldaCharacter, rhs: ZeldaCharacter) -> Bool {
         return lhs.id == rhs.id
+    }
+    
+    func hash(into hasher: inout Hasher) {
+        hasher.combine(id)
+        hasher.combine(name)
+        // TODO: add more properties?
     }
 }

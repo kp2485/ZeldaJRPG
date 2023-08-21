@@ -47,6 +47,12 @@ struct ZeldaEnemy: ZeldaEntity {
     
     let skills: [Skill]
     
+    func hash(into hasher: inout Hasher) {
+        hasher.combine(id)
+        hasher.combine(name)
+        // TODO: add more properties?
+    }
+    
     static func == (lhs: ZeldaEnemy, rhs: ZeldaEnemy) -> Bool {
         return lhs.id == rhs.id
     }

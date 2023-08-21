@@ -40,7 +40,7 @@ class CharacterStore: ObservableObject {
                     rupeeCost: 0,
                     targetType: .enemyTarget,
                     probability: 0.95,
-                    effects: [Effect(target: "currentHealth", modifiedBy: -2, duration: 1)],
+                    effects: [Effect(effectType: .physical, target: "currentHealth", modifiedBy: -2, duration: 1)],
                     cooldown: 0
                 ),
                 Skill(
@@ -54,9 +54,9 @@ class CharacterStore: ObservableObject {
                     targetType: .allEnemies,
                     probability: 0.75,
                     effects: [
-                        Effect(target: "currentHealth", modifiedBy: -1, duration: 1),
-                        Effect(target: "currentEndurance", modifiedBy: -25, duration: 1),
-                        Effect(target: "stunDuration", modifiedBy: 1, duration: 1)
+                        Effect(effectType: .physical, target: "currentHealth", modifiedBy: -1, duration: 1),
+                        Effect(effectType: .physical, target: "currentEndurance", modifiedBy: -25, duration: 1),
+                        Effect(effectType: .physical, target: "stunDuration", modifiedBy: 1, duration: 1)
                     ],
                     cooldown: 1
                 ),
@@ -71,8 +71,8 @@ class CharacterStore: ObservableObject {
                     targetType: .enemyTarget,
                     probability: 0.85,
                     effects: [
-                        Effect(target: "currentHealth", modifiedBy: -4, duration: 1),
-                        Effect(target: "currentEndurance", modifiedBy: -10, duration: 1)
+                        Effect(effectType: .physical, target: "currentHealth", modifiedBy: -4, duration: 1),
+                        Effect(effectType: .physical, target: "currentEndurance", modifiedBy: -10, duration: 1)
                     ],
                     cooldown: 3
                 ),
@@ -86,7 +86,7 @@ class CharacterStore: ObservableObject {
                     rupeeCost: 0,
                     targetType: .selfTarget,
                     probability: 1.0,
-                    effects: [Effect(target: "deflectionRating", modifiedBy: 0.6, duration: 2)],
+                    effects: [Effect(effectType: .physical, target: "deflectionRating", modifiedBy: 0.6, duration: 2)],
                     cooldown: 1
                 )
             ]
@@ -94,4 +94,6 @@ class CharacterStore: ObservableObject {
         
         // Add next character here
     ]
+    
+    @Published var currentParty: [ZeldaCharacter] = []
 }

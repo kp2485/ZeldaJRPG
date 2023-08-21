@@ -7,7 +7,7 @@
 
 import Foundation
 
-protocol ZeldaEntity: Identifiable, Equatable {
+protocol ZeldaEntity: Identifiable, Equatable, Hashable {
     var id: UUID { get }
     var name: String { get }
     var release: Game { get }
@@ -25,4 +25,6 @@ protocol ZeldaEntity: Identifiable, Equatable {
     var experienceReward: UInt { get set }
     
     var skills: [Skill] { get }
+    
+    func hash(into hasher: inout Hasher)
 }
