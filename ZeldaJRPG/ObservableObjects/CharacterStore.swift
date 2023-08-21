@@ -32,7 +32,7 @@ class CharacterStore: ObservableObject {
             skills: [
                 Skill(
                     name: "Thrust",
-                    description: "A quick sword attack targeting one enemy",
+                    description: "A quick sword attack targeting one enemy.",
                     unlockLevel: 1,
                     healthCost: 0,
                     magicCost: 0,
@@ -45,7 +45,7 @@ class CharacterStore: ObservableObject {
                 ),
                 Skill(
                     name: "Boomerang Toss",
-                    description: "Hit multiple enemies with one toss",
+                    description: "Hit multiple enemies with one toss!",
                     unlockLevel: 4,
                     healthCost: 0,
                     magicCost: 0,
@@ -62,7 +62,7 @@ class CharacterStore: ObservableObject {
                 ),
                 Skill(
                     name: "Power Shot",
-                    description: "A powerful shot made with Link's bow",
+                    description: "A powerful shot made with Link's bow.",
                     unlockLevel: 8,
                     healthCost: 0,
                     magicCost: 0,
@@ -78,7 +78,7 @@ class CharacterStore: ObservableObject {
                 ),
                 Skill(
                     name: "Shield Block",
-                    description: "Increase your deflection bonus for 2 turns",
+                    description: "Increase your deflection bonus for 2 turns.",
                     unlockLevel: 0,
                     healthCost: 0,
                     magicCost: 0,
