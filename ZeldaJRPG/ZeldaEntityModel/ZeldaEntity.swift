@@ -10,7 +10,7 @@ import Foundation
 protocol ZeldaEntity: Identifiable, Equatable, Hashable {
     var id: UUID { get }
     var name: String { get }
-    var release: Game { get }
+    var release: ZeldaReleaseName { get }
     var imageName: String { get }
     var affinity: [EffectType] { get }
     

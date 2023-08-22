@@ -10,7 +10,7 @@ import Foundation
 struct ZeldaEnemy: ZeldaEntity {
     let id = UUID()
     let name: String
-    var release: Game
+    var release: ZeldaReleaseName
     let imageName: String
     let enemyType: EnemyType
     let species: EnemySpecies

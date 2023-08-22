@@ -7,17 +7,37 @@
 
 import Foundation
 
-protocol ZeldaObject: Identifiable, Equatable, Hashable {
-    var id: UUID { get }
-    var name: String { get }
-    var description: String { get }
+class ZeldaObject: Identifiable, Equatable, Hashable {
+    var id = UUID()
+    var name: String
+    var description: String
     
-    var healthEffect: Int { get }
-    var magicEffect: Int { get }
-    var enduranceEffect: Int { get }
-    var deflectionEffect: Int { get }
-    var stunDurationEffect: Int { get }
-    var skillEffects: [Skill] { get }
+    var healthEffect: Int
+    var magicEffect: Int
+    var enduranceEffect: Int
+    var deflectionEffect: Int
+    var stunDurationEffect: Int
+    var skillEffects: [Skill]
     
-    func hash(into hasher: inout Hasher)
+    init(id: UUID = UUID(), name: String, description: String, healthEffect: Int, magicEffect: Int, enduranceEffect: Int, deflectionEffect: Int, stunDurationEffect: Int, skillEffects: [Skill]) {
+        self.id = id
+        self.name = name
+        self.description = description
+        self.healthEffect = healthEffect
+        self.magicEffect = magicEffect
+        self.enduranceEffect = enduranceEffect
+        self.deflectionEffect = deflectionEffect
+        self.stunDurationEffect = stunDurationEffect
+        self.skillEffects = skillEffects
+    }
+    
+    static func == (lhs: ZeldaObject, rhs: ZeldaObject) -> Bool {
+        return lhs.id == rhs.id
+    }
+    
+    func hash(into hasher: inout Hasher) {
+        hasher.combine(id)
+        hasher.combine(name)
+        // TODO: add more properties?
+    }
 }

@@ -8,5 +8,5 @@
 import Foundation
 
 enum EncounterResult {
-    case win, loss, avoid, oldMan, faerie, secret, itemShop, potionShop, moneyMakingGame
+    case win, loss, avoid
 }

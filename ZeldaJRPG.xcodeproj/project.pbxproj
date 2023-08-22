@@ -18,9 +18,13 @@
 		D60E78BF2A93E78200C3393F /* PastEncounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60E78BE2A93E78200C3393F /* PastEncounter.swift */; };
 		D60E78C12A93EAD100C3393F /* EncounterResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60E78C02A93EAD100C3393F /* EncounterResult.swift */; };
 		D60E78C32A93EDDB00C3393F /* MatchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60E78C22A93EDDB00C3393F /* MatchManager.swift */; };
-		D60E78C52A93EF2000C3393F /* EncounterSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60E78C42A93EF2000C3393F /* EncounterSetting.swift */; };
 		D60E78C82A94003300C3393F /* ZeldaObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60E78C72A94003300C3393F /* ZeldaObject.swift */; };
 		D60E78CD2A94041300C3393F /* ObjectStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60E78CC2A94041300C3393F /* ObjectStore.swift */; };
+		D60E78D02A940A9A00C3393F /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60E78CF2A940A9A00C3393F /* Settings.swift */; };
+		D60E78D22A94174C00C3393F /* ZeldaRelease.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60E78D12A94174C00C3393F /* ZeldaRelease.swift */; };
+		D60E78D62A94203700C3393F /* TheLegendOfZeldaRelease.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60E78D52A94203700C3393F /* TheLegendOfZeldaRelease.swift */; };
+		D60E78D82A94233000C3393F /* EncounterType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60E78D72A94233000C3393F /* EncounterType.swift */; };
+		D60E78DB2A94245700C3393F /* ZeldaLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60E78DA2A94245700C3393F /* ZeldaLocation.swift */; };
 		D6B404A22A83CF72005B0E96 /* ZeldaJRPGApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B404A12A83CF72005B0E96 /* ZeldaJRPGApp.swift */; };
 		D6B404A42A83CF72005B0E96 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B404A32A83CF72005B0E96 /* ContentView.swift */; };
 		D6B404A62A83CF78005B0E96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6B404A52A83CF78005B0E96 /* Assets.xcassets */; };
@@ -33,7 +37,7 @@
 		D6B404D12A83D375005B0E96 /* Demonym.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B404D02A83D375005B0E96 /* Demonym.swift */; };
 		D6B404D32A83D479005B0E96 /* Role.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B404D22A83D479005B0E96 /* Role.swift */; };
 		D6B404D72A83D815005B0E96 /* Skill.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B404D62A83D815005B0E96 /* Skill.swift */; };
-		D6B404D92A83DB3E005B0E96 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B404D82A83DB3E005B0E96 /* Game.swift */; };
+		D6B404D92A83DB3E005B0E96 /* ZeldaReleaseName.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B404D82A83DB3E005B0E96 /* ZeldaReleaseName.swift */; };
 		D6B404DB2A83E1C2005B0E96 /* ZeldaEnemy.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B404DA2A83E1C2005B0E96 /* ZeldaEnemy.swift */; };
 		D6B404DD2A83E281005B0E96 /* EffectType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B404DC2A83E281005B0E96 /* EffectType.swift */; };
 		D6B404DF2A83F505005B0E96 /* EnemyType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B404DE2A83F505005B0E96 /* EnemyType.swift */; };
@@ -70,9 +74,13 @@
 		D60E78BE2A93E78200C3393F /* PastEncounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastEncounter.swift; sourceTree = "<group>"; };
 		D60E78C02A93EAD100C3393F /* EncounterResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncounterResult.swift; sourceTree = "<group>"; };
 		D60E78C22A93EDDB00C3393F /* MatchManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchManager.swift; sourceTree = "<group>"; };
-		D60E78C42A93EF2000C3393F /* EncounterSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncounterSetting.swift; sourceTree = "<group>"; };
 		D60E78C72A94003300C3393F /* ZeldaObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeldaObject.swift; sourceTree = "<group>"; };
 		D60E78CC2A94041300C3393F /* ObjectStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectStore.swift; sourceTree = "<group>"; };
+		D60E78CF2A940A9A00C3393F /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		D60E78D12A94174C00C3393F /* ZeldaRelease.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeldaRelease.swift; sourceTree = "<group>"; };
+		D60E78D52A94203700C3393F /* TheLegendOfZeldaRelease.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheLegendOfZeldaRelease.swift; sourceTree = "<group>"; };
+		D60E78D72A94233000C3393F /* EncounterType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncounterType.swift; sourceTree = "<group>"; };
+		D60E78DA2A94245700C3393F /* ZeldaLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeldaLocation.swift; sourceTree = "<group>"; };
 		D6B4049E2A83CF72005B0E96 /* ZeldaJRPG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZeldaJRPG.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6B404A12A83CF72005B0E96 /* ZeldaJRPGApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeldaJRPGApp.swift; sourceTree = "<group>"; };
 		D6B404A32A83CF72005B0E96 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -88,7 +96,7 @@
 		D6B404D02A83D375005B0E96 /* Demonym.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demonym.swift; sourceTree = "<group>"; };
 		D6B404D22A83D479005B0E96 /* Role.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Role.swift; sourceTree = "<group>"; };
 		D6B404D62A83D815005B0E96 /* Skill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Skill.swift; sourceTree = "<group>"; };
-		D6B404D82A83DB3E005B0E96 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		D6B404D82A83DB3E005B0E96 /* ZeldaReleaseName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeldaReleaseName.swift; sourceTree = "<group>"; };
 		D6B404DA2A83E1C2005B0E96 /* ZeldaEnemy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeldaEnemy.swift; sourceTree = "<group>"; };
 		D6B404DC2A83E281005B0E96 /* EffectType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EffectType.swift; sourceTree = "<group>"; };
 		D6B404DE2A83F505005B0E96 /* EnemyType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnemyType.swift; sourceTree = "<group>"; };
@@ -149,7 +157,7 @@
 				D60E78C22A93EDDB00C3393F /* MatchManager.swift */,
 				D60E78BE2A93E78200C3393F /* PastEncounter.swift */,
 				D60E78C02A93EAD100C3393F /* EncounterResult.swift */,
-				D60E78C42A93EF2000C3393F /* EncounterSetting.swift */,
+				D60E78D72A94233000C3393F /* EncounterType.swift */,
 			);
 			path = GameCenter;
 			sourceTree = "<group>";
@@ -168,8 +176,28 @@
 				D60E78752A89E8BE00C3393F /* CharacterStore.swift */,
 				D60E78792A8C251600C3393F /* EnemyStore.swift */,
 				D60E78CC2A94041300C3393F /* ObjectStore.swift */,
+				D60E78CF2A940A9A00C3393F /* Settings.swift */,
 			);
 			path = ObservableObjects;
+			sourceTree = "<group>";
+		};
+		D60E78D32A94175100C3393F /* ZeldaReleaseModel */ = {
+			isa = PBXGroup;
+			children = (
+				D60E78D12A94174C00C3393F /* ZeldaRelease.swift */,
+				D6B404D82A83DB3E005B0E96 /* ZeldaReleaseName.swift */,
+				D60E78D52A94203700C3393F /* TheLegendOfZeldaRelease.swift */,
+				D60E78D92A94240D00C3393F /* ZeldaLocationModel */,
+			);
+			path = ZeldaReleaseModel;
+			sourceTree = "<group>";
+		};
+		D60E78D92A94240D00C3393F /* ZeldaLocationModel */ = {
+			isa = PBXGroup;
+			children = (
+				D60E78DA2A94245700C3393F /* ZeldaLocation.swift */,
+			);
+			path = ZeldaLocationModel;
 			sourceTree = "<group>";
 		};
 		D6B404952A83CF72005B0E96 = {
@@ -199,6 +227,7 @@
 				D60E78BA2A93E4D500C3393F /* Views */,
 				D60E78BB2A93E61500C3393F /* GameCenter */,
 				D60E78C92A9403DE00C3393F /* ObservableObjects */,
+				D60E78D32A94175100C3393F /* ZeldaReleaseModel */,
 				D6B404CB2A83D0DC005B0E96 /* ZeldaEntityModel */,
 				D60E78C62A94001200C3393F /* ZeldaObjectModel */,
 				D60E78B92A93E4B000C3393F /* Misc */,
@@ -244,7 +273,6 @@
 				D6B404DA2A83E1C2005B0E96 /* ZeldaEnemy.swift */,
 				D6B404DE2A83F505005B0E96 /* EnemyType.swift */,
 				D6B404E22A83F802005B0E96 /* EnemySpecies.swift */,
-				D6B404D82A83DB3E005B0E96 /* Game.swift */,
 				D6B404D62A83D815005B0E96 /* Skill.swift */,
 			);
 			path = ZeldaEntityModel;
@@ -385,28 +413,32 @@
 				D6B404CF2A83D285005B0E96 /* Race.swift in Sources */,
 				D6B404DF2A83F505005B0E96 /* EnemyType.swift in Sources */,
 				D60E78CD2A94041300C3393F /* ObjectStore.swift in Sources */,
-				D60E78C52A93EF2000C3393F /* EncounterSetting.swift in Sources */,
+				D60E78D82A94233000C3393F /* EncounterType.swift in Sources */,
 				D60E78742A89E77900C3393F /* CharacterSelectionView.swift in Sources */,
 				D60E78B82A8EC23C00C3393F /* ZeldaEntity.swift in Sources */,
 				D60E78722A86B30100C3393F /* Effect.swift in Sources */,
+				D60E78DB2A94245700C3393F /* ZeldaLocation.swift in Sources */,
 				D6B404D12A83D375005B0E96 /* Demonym.swift in Sources */,
 				D6B404CD2A83D166005B0E96 /* ZeldaCharacter.swift in Sources */,
 				D6B404DB2A83E1C2005B0E96 /* ZeldaEnemy.swift in Sources */,
-				D6B404D92A83DB3E005B0E96 /* Game.swift in Sources */,
+				D6B404D92A83DB3E005B0E96 /* ZeldaReleaseName.swift in Sources */,
 				D60E78762A89E8BE00C3393F /* CharacterStore.swift in Sources */,
 				D6B404A42A83CF72005B0E96 /* ContentView.swift in Sources */,
 				D60E78C32A93EDDB00C3393F /* MatchManager.swift in Sources */,
 				D60E78C82A94003300C3393F /* ZeldaObject.swift in Sources */,
 				D60E78782A8C0CFE00C3393F /* CharacterGridView.swift in Sources */,
+				D60E78D02A940A9A00C3393F /* Settings.swift in Sources */,
 				D6B404A22A83CF72005B0E96 /* ZeldaJRPGApp.swift in Sources */,
 				D60E78BF2A93E78200C3393F /* PastEncounter.swift in Sources */,
 				D60E78C12A93EAD100C3393F /* EncounterResult.swift in Sources */,
 				D6B404D72A83D815005B0E96 /* Skill.swift in Sources */,
 				D6B404D32A83D479005B0E96 /* Role.swift in Sources */,
+				D60E78D62A94203700C3393F /* TheLegendOfZeldaRelease.swift in Sources */,
 				D6B404E12A83F69F005B0E96 /* WeaponType.swift in Sources */,
 				D60E787A2A8C251600C3393F /* EnemyStore.swift in Sources */,
 				D6B404E32A83F802005B0E96 /* EnemySpecies.swift in Sources */,
 				D60E78BD2A93E64E00C3393F /* PlayerAuthState.swift in Sources */,
+				D60E78D22A94174C00C3393F /* ZeldaRelease.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

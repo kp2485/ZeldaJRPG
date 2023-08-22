@@ -39,7 +39,7 @@ class CharacterStore: ObservableObject {
                     enduranceCost: 5,
                     rupeeCost: 0,
                     targetType: .enemyTarget,
-                    probability: 0.95,
+                    successChance: 0.95,
                     effects: [Effect(effectType: .physical, target: "currentHealth", modifiedBy: -2, duration: 1)],
                     cooldown: 0
                 ),
@@ -52,7 +52,7 @@ class CharacterStore: ObservableObject {
                     enduranceCost: 5,
                     rupeeCost: 0,
                     targetType: .allEnemies,
-                    probability: 0.75,
+                    successChance: 0.75,
                     effects: [
                         Effect(effectType: .physical, target: "currentHealth", modifiedBy: -1, duration: 1),
                         Effect(effectType: .physical, target: "currentEndurance", modifiedBy: -25, duration: 1),
@@ -69,7 +69,7 @@ class CharacterStore: ObservableObject {
                     enduranceCost: 10,
                     rupeeCost: 1,
                     targetType: .enemyTarget,
-                    probability: 0.85,
+                    successChance: 0.85,
                     effects: [
                         Effect(effectType: .physical, target: "currentHealth", modifiedBy: -4, duration: 1),
                         Effect(effectType: .physical, target: "currentEndurance", modifiedBy: -10, duration: 1)
@@ -85,7 +85,7 @@ class CharacterStore: ObservableObject {
                     enduranceCost: 25,
                     rupeeCost: 0,
                     targetType: .selfTarget,
-                    probability: 1.0,
+                    successChance: 1.0,
                     effects: [Effect(effectType: .physical, target: "deflectionRating", modifiedBy: 0.6, duration: 2)],
                     cooldown: 1
                 )

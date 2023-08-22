@@ -11,5 +11,5 @@ struct PastEncounter: Identifiable {
     let id = UUID()
     var opponents: [any ZeldaEntity]?
     var result: EncounterResult
-    var gains: [any ZeldaObject]?
+    var gains: [ZeldaObject]?
 }

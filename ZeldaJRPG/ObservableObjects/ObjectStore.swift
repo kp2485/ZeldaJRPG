@@ -8,5 +8,5 @@
 import Foundation
 
 class ObjectStore: ObservableObject {
-    @Published var allObjects: [any ZeldaObject] = []
+    @Published var allObjects: [ZeldaObject] = []
 }

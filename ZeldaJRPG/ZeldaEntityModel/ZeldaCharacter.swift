@@ -11,7 +11,7 @@ struct ZeldaCharacter: ZeldaEntity {
     
     let id = UUID()
     let name: String
-    let release: Game
+    let release: ZeldaReleaseName
     let imageName: String
     let race: Race
     let demonym: Demonym

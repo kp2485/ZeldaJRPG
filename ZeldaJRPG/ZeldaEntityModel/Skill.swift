@@ -16,7 +16,7 @@ struct Skill {
     let enduranceCost: UInt
     let rupeeCost: UInt
     let targetType: TargetType
-    let probability: Double
+    let successChance: Double
     let effects: [Effect]
     let cooldown: UInt8
 }

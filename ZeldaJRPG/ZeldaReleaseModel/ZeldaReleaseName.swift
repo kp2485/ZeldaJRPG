@@ -1,5 +1,5 @@
 //
-//  Game.swift
+//  ZeldaReleaseName.swift
 //  ZeldaJRPG
 //
 //  Created by Kyle Peterson on 8/9/23.
@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum Game: String {
+enum ZeldaReleaseName: String {
     case TheLegendOfZelda = "The Legend of Zelda"
     case TheAdventureOfLink = "The Adventure of Link"
     case ALinkToThePast = "A Link to the Past"

@@ -34,7 +34,7 @@ class EnemyStore: ObservableObject {
                       enduranceCost: 5,
                       rupeeCost: 0,
                       targetType: .enemyTarget,
-                      probability: 0.75,
+                      successChance: 0.75,
                       effects: [
                         Effect(effectType: .physical, target: "currentHealth", modifiedBy: -2, duration: 1)
                       ],
@@ -47,7 +47,7 @@ class EnemyStore: ObservableObject {
                       enduranceCost: 8,
                       rupeeCost: 0,
                       targetType: .enemyTarget,
-                      probability: 1.0,
+                      successChance: 1.0,
                       effects: [
                         Effect(effectType: .physical, target: "currentHealth", modifiedBy: -2, duration: 1)
                       ],
@@ -60,7 +60,7 @@ class EnemyStore: ObservableObject {
                       enduranceCost: 10,
                       rupeeCost: 0,
                       targetType: .selfTarget,
-                      probability: 1.0,
+                      successChance: 1.0,
                       effects: [
                         Effect(effectType: .physical, target: "deflectionRating", modifiedBy: 1.0, duration: 1)
                       ],
