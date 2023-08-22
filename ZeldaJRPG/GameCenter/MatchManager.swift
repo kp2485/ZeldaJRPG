@@ -14,8 +14,8 @@ class MatchManager: ObservableObject {
     @Published var authenticationState = PlayerAuthState.authenticating
     
     @Published var isMyTurn = false
-    @Published var encounters: [PastEncounter] = []
-//    @Published var currentPlace = .tlozOverworld
+    // @Published var currentLocation: ZeldaLocation
+    @Published var currentEncounter: [PastEncounter] = []
     @Published var pastEncounters = [PastEncounter]()
     
     @Published var score = 0
