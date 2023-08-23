@@ -8,14 +8,25 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject var matchManager = MatchManager()
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        ZStack {
+            
+            Color.gray
+                .edgesIgnoringSafeArea(.all)
+            
+            if matchManager.isGameOver {
+                GameOverView(matchManager: matchManager)
+            } else if matchManager.inGame {
+                GameView(matchManager: matchManager)
+            } else {
+                MenuView(matchManager: matchManager)
+            }
         }
-        .padding()
+        .onAppear {
+            matchManager.authenticateUser()
+        }
     }
 }
 

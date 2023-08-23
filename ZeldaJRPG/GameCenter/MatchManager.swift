@@ -15,7 +15,7 @@ class MatchManager: ObservableObject {
     
     @Published var isMyTurn = false
     // @Published var currentLocation: ZeldaLocation
-    @Published var currentEncounter: [PastEncounter] = []
+    // @Published var currentEncounter: [PastEncounter] = []
     @Published var pastEncounters = [PastEncounter]()
     
     @Published var score = 0
