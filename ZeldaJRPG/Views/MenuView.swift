@@ -9,6 +9,7 @@ import SwiftUI
 
 struct MenuView: View {
     @ObservedObject var matchManager: MatchManager
+    @State private var isRotating = 0.0
     
     var body: some View {
         ZStack {
@@ -26,42 +27,51 @@ struct MenuView: View {
                     .padding(.horizontal, 30)
                     .padding(.bottom, 20)
                 
-                
-                topTriforceButton
-                
-                HStack {
-                    leftTriforceButton
-                    rightTriforceButton
+                ZStack{
+                    
+                    
+                    VStack {
+                        topTriforceButton
+                            .modifier(rotateOnTap(isRotating: isRotating, degrees: 720.0))
+                        
+                        
+                        HStack {
+                            leftTriforceButton
+                                .modifier(rotateOnTap(isRotating: isRotating, degrees: 720.0))
+                            rightTriforceButton
+                                .modifier(rotateOnTap(isRotating: isRotating, degrees: 720.0))
+                        }
+                    }
                 }
                 
-//                Button {
-//                    // TODO: Start Group Selection Menu
-//                } label: {
-//                    topTriforceButton
-//                }
-//                .padding(.vertical, 15)
-//                .padding(.horizontal, 30)
-//                .background(
-//                    RoundedRectangle(cornerRadius: 30)
-//                        .fill(matchManager.authenticationState != .authenticated || matchManager.inGame ? .brown : .gray)
-//                        .opacity(0.5)
-//                )
-//
-//                Button {
-//                    // TODO: Start Matchmaking Menu
-//                } label: {
-//                    Text("MATCHMAKING")
-//                        .font(.largeTitle)
-//                        .bold()
-//                }
-//                .disabled(matchManager.authenticationState != .authenticated || matchManager.inGame)
-//                .padding(.vertical, 15)
-//                .padding(.horizontal, 30)
-//                .background(
-//                    RoundedRectangle(cornerRadius: 30)
-//                        .fill(matchManager.authenticationState != .authenticated || matchManager.inGame ? .brown : .gray)
-//                        .opacity(0.5)
-//                )
+                //                Button {
+                //                    // TODO: Start Group Selection Menu
+                //                } label: {
+                //                    topTriforceButton
+                //                }
+                //                .padding(.vertical, 15)
+                //                .padding(.horizontal, 30)
+                //                .background(
+                //                    RoundedRectangle(cornerRadius: 30)
+                //                        .fill(matchManager.authenticationState != .authenticated || matchManager.inGame ? .brown : .gray)
+                //                        .opacity(0.5)
+                //                )
+                //
+                //                Button {
+                //                    // TODO: Start Matchmaking Menu
+                //                } label: {
+                //                    Text("MATCHMAKING")
+                //                        .font(.largeTitle)
+                //                        .bold()
+                //                }
+                //                .disabled(matchManager.authenticationState != .authenticated || matchManager.inGame)
+                //                .padding(.vertical, 15)
+                //                .padding(.horizontal, 30)
+                //                .background(
+                //                    RoundedRectangle(cornerRadius: 30)
+                //                        .fill(matchManager.authenticationState != .authenticated || matchManager.inGame ? .brown : .gray)
+                //                        .opacity(0.5)
+                //                )
                 
                 Spacer()
             }
