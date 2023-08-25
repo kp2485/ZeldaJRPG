@@ -25,10 +25,16 @@ struct MenuView: View {
                     .resizable()
                     .scaledToFit()
                     .padding(.horizontal, 30)
-                    .padding(.bottom, 20)
+                    
+                
+                Text("Quantum Link")
+                    .font(.custom("HyliaSerifBeta-Regular", size: 40))
+                    .baselineOffset(5)
+                    .opacity(0.60)
+                    .kerning(5)
                 
                 ZStack{
-                    
+                    // TODO: Triforce underlay
                     
                     VStack {
                         topTriforceButton

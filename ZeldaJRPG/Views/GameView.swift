@@ -11,7 +11,10 @@ struct GameView: View {
     @ObservedObject var matchManager: MatchManager
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Text("Quantum Link")
+            .font(.custom("HyliaSerifBeta-Regular", size: 40))
+            .baselineOffset(0)
+            .opacity(0.65)
     }
 }
 
