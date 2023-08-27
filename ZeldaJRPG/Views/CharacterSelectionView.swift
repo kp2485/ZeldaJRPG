@@ -13,12 +13,7 @@ struct CharacterSelectionView: View {
     
     var screenwidth = UIScreen.main.bounds.width
     
-    let columns = [
-        GridItem(.fixed(50)),
-        GridItem(.fixed(50)),
-        GridItem(.fixed(50)),
-        GridItem(.fixed(50))
-    ]
+    let columns: [GridItem] = Array(repeating: .init(.fixed(50)), count: 4)
     
     var body: some View {
         ZStack {
