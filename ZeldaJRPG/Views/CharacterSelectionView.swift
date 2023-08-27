@@ -9,7 +9,7 @@ import SwiftUI
 
 struct CharacterSelectionView: View {
     
-    @EnvironmentObject var characterViewModel: CharacterStore
+    @EnvironmentObject var characterStore: CharacterStore
     
     var screenwidth = UIScreen.main.bounds.width
     
@@ -28,25 +28,54 @@ struct CharacterSelectionView: View {
 
             VStack {
                 Text("Current Party")
+                    .font(.custom("HyliaSerifBeta-Regular", size: 40))
+                    .kerning(4)
                     .font(.largeTitle)
                     .opacity(0.90)
                 
                 HStack {
-                    ForEach(0..<4) { _ in
-                        RoundedRectangle(cornerRadius: 10)
+                    ForEach(characterStore.currentParty) { partyMember in
+                        Image(partyMember.imageName + "Bust")
+                            .resizable()
+                            .scaledToFit()
+                            .frame(width: screenwidth / 6)
                             .padding(.horizontal, 5)
-                            .frame(width: screenwidth / 5)
-                            .foregroundColor(.gray)
+                            .mask {
+                                RoundedRectangle(cornerRadius: 10)
+                            }
                     }
                     
                 }
-                .frame(height: 100)
+                .frame(height: 80)
+                .padding(.bottom, 10)
                 
+                
+                // All characters, unlocked first
                 ScrollView {
                     LazyVGrid(columns: columns) {
-                        ForEach(characterViewModel.characters) { character in
+                        ForEach(characterStore.characters) { character in
                             CharacterGridView(character: character)
                                 .frame(width: screenwidth / 5)
+                                .onTapGesture {
+                                    // TODO: Append to currentParty if currentParty.count < 4 && character is not already in the array
+                                    if characterStore.currentParty.count < 5 {
+                                        if !characterStore.currentParty.contains(where: { selectedCharacter in
+                                            selectedCharacter.name == character.name
+                                        }) {
+                                            characterStore.currentParty.append(character)
+                                            print("\(character.name) added to party.")
+                                        } else {
+                                            if let index = characterStore.currentParty.firstIndex(where: { selectedCharacter in
+                                                selectedCharacter.name == character.name
+                                            }) {
+                                                characterStore.currentParty.remove(at: index)
+                                                print("\(character.name) removed from party.")
+                                            }
+                                        }
+                                    } else {
+                                        print("Party is full.")
+                                    }
+                                }
                         }
                     }
                 }

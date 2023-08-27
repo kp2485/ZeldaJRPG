@@ -132,7 +132,7 @@ struct MenuView: View {
     
     var triforceButtonBackground: some View {
         Image(systemName: "triangle.fill", variableValue: 1.0)
-            .font(.system(size: 140))
+            .font(.system(size: 130))
             .foregroundColor(.white)
             .opacity(0.5)
             .shadow(radius: CGFloat(5))
