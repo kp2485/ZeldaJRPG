@@ -15,10 +15,7 @@ struct RotateOnTap: ViewModifier {
     func body(content: Content) -> some View {
         content
             .rotation3DEffect(Angle(degrees: isRotating),
-                              axis: (x: 0,
-                                     y: 180,
-                                     z: 0
-                                    )
+                              axis: (x: 0, y: 180, z: 0)
             )
             .onTapGesture {
                 withAnimation(.easeInOut(duration: 5)
