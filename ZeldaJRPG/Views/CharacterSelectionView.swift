@@ -11,9 +11,10 @@ struct CharacterSelectionView: View {
     
     @EnvironmentObject var characterStore: CharacterStore
     
-    var screenwidth = UIScreen.main.bounds.width
+    var screenWidth = UIScreen.main.bounds.width
+    var screenHeight = UIScreen.main.bounds.height
     
-    let columns: [GridItem] = Array(repeating: .init(.fixed(50)), count: 4)
+    let columns: [GridItem] = Array(repeating: .init(.fixed(90)), count: 4)
     
     var body: some View {
         ZStack {
@@ -32,8 +33,7 @@ struct CharacterSelectionView: View {
                     ForEach(characterStore.currentParty) { partyMember in
                         Image(partyMember.imageName + "Bust")
                             .resizable()
-                            .frame(width: screenwidth / 5)
-                            .frame(height: 90)
+                            .frame(width: screenWidth / 6, height: screenHeight / 10)
                             .scaledToFit()
                             .mask {
                                 RoundedRectangle(cornerRadius: 10)
@@ -51,7 +51,7 @@ struct CharacterSelectionView: View {
                     LazyVGrid(columns: columns) {
                         ForEach(characterStore.characters) { character in
                             CharacterGridView(character: character)
-                                .frame(width: screenwidth / 5)
+                                .frame(width: screenWidth / 6, height: screenHeight / 10)
                                 .modifier(CharacterShadowModifier(inParty: characterStore.currentParty.contains(character)))
                                 .onTapGesture {
                                     if characterStore.currentParty.count < 5 {

@@ -16,14 +16,14 @@ struct CharacterGridView: View {
         if character.isUnlocked {
             Image(character.imageName + "Bust")
                 .resizable()
-                .scaledToFit()
+                .scaledToFill()
                 .mask {
                     RoundedRectangle(cornerRadius: 10)
                 }
         } else {
             Image(character.imageName + "Bust")
                 .resizable()
-                .scaledToFit()
+                .scaledToFill()
                 .mask {
                     RoundedRectangle(cornerRadius: 10)
                 }

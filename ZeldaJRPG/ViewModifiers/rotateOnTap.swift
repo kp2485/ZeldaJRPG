@@ -1,5 +1,5 @@
 //
-//  rotateOnTap.swift
+//  RotateOnTap.swift
 //  ZeldaJRPG
 //
 //  Created by Kyle Peterson on 8/22/23.
@@ -8,7 +8,7 @@
 import Foundation
 import SwiftUI
 
-struct rotateOnTap: ViewModifier {
+struct RotateOnTap: ViewModifier {
     @State var isRotating: Double
     @State var degrees: Double
     

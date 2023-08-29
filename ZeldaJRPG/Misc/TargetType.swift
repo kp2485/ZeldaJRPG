@@ -8,5 +8,5 @@
 import Foundation
 
 enum TargetType {
-    case selfTarget, allyTarget, enemyTarget, allEnemies, roomTarget, areaTarget, itemTarget
+    case selfTarget, allyTarget, allAllies, enemyTarget, allEnemies, roomTarget, areaTarget, itemTarget
 }

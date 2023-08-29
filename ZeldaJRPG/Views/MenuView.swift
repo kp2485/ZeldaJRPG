@@ -38,14 +38,14 @@ struct MenuView: View {
                     
                     VStack {
                         topTriforceButton
-                            .modifier(rotateOnTap(isRotating: isRotating, degrees: 720.0))
+                            .modifier(RotateOnTap(isRotating: isRotating, degrees: 720.0))
                         
                         
                         HStack {
                             leftTriforceButton
-                                .modifier(rotateOnTap(isRotating: isRotating, degrees: 720.0))
+                                .modifier(RotateOnTap(isRotating: isRotating, degrees: 720.0))
                             rightTriforceButton
-                                .modifier(rotateOnTap(isRotating: isRotating, degrees: 720.0))
+                                .modifier(RotateOnTap(isRotating: isRotating, degrees: 720.0))
                         }
                     }
                 }
