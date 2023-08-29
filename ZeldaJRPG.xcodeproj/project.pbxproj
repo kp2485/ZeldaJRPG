@@ -34,6 +34,7 @@
 		D60E78F02A9663A000C3393F /* Triforce.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D60E78EF2A9663A000C3393F /* Triforce.ttf */; };
 		D60E78F22A9664C000C3393F /* HyliaSerifBeta-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = D60E78F12A9664C000C3393F /* HyliaSerifBeta-Regular.otf */; };
 		D60E78F42A9666F500C3393F /* SherwoodRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D60E78F32A9666F500C3393F /* SherwoodRegular.ttf */; };
+		D60E78F62A9D716F00C3393F /* CharacterShadowModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60E78F52A9D716F00C3393F /* CharacterShadowModifier.swift */; };
 		D6B404A22A83CF72005B0E96 /* ZeldaJRPGApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B404A12A83CF72005B0E96 /* ZeldaJRPGApp.swift */; };
 		D6B404A42A83CF72005B0E96 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B404A32A83CF72005B0E96 /* ContentView.swift */; };
 		D6B404A62A83CF78005B0E96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6B404A52A83CF78005B0E96 /* Assets.xcassets */; };
@@ -100,6 +101,7 @@
 		D60E78EF2A9663A000C3393F /* Triforce.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Triforce.ttf; path = ZeldaJRPG/Assets.xcassets/Fonts/Triforce.dataset/Triforce.ttf; sourceTree = SOURCE_ROOT; };
 		D60E78F12A9664C000C3393F /* HyliaSerifBeta-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "HyliaSerifBeta-Regular.otf"; path = "ZeldaJRPG/Assets.xcassets/Fonts/HyliaSerifBeta-Regular.dataset/HyliaSerifBeta-Regular.otf"; sourceTree = SOURCE_ROOT; };
 		D60E78F32A9666F500C3393F /* SherwoodRegular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = SherwoodRegular.ttf; path = ZeldaJRPG/Assets.xcassets/Fonts/SherwoodRegular.dataset/SherwoodRegular.ttf; sourceTree = SOURCE_ROOT; };
+		D60E78F52A9D716F00C3393F /* CharacterShadowModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterShadowModifier.swift; sourceTree = "<group>"; };
 		D6B4049E2A83CF72005B0E96 /* ZeldaJRPG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZeldaJRPG.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6B404A12A83CF72005B0E96 /* ZeldaJRPGApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeldaJRPGApp.swift; sourceTree = "<group>"; };
 		D6B404A32A83CF72005B0E96 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -227,6 +229,7 @@
 			isa = PBXGroup;
 			children = (
 				D60E78E72A958F9800C3393F /* rotateOnTap.swift */,
+				D60E78F52A9D716F00C3393F /* CharacterShadowModifier.swift */,
 			);
 			path = ViewModifiers;
 			sourceTree = "<group>";
@@ -492,6 +495,7 @@
 				D6B404E32A83F802005B0E96 /* EnemySpecies.swift in Sources */,
 				D60E78BD2A93E64E00C3393F /* PlayerAuthState.swift in Sources */,
 				D60E78DF2A95202A00C3393F /* GameOverView.swift in Sources */,
+				D60E78F62A9D716F00C3393F /* CharacterShadowModifier.swift in Sources */,
 				D60E78D22A94174C00C3393F /* ZeldaRelease.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

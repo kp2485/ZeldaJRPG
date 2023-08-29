@@ -8,5 +8,5 @@
 import Foundation
 
 class Settings: ObservableObject {
-    @Published var maxTurnTime = 15
+    @Published var turnTime = 15
 }

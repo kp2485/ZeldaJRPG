@@ -32,14 +32,15 @@ struct CharacterSelectionView: View {
                     ForEach(characterStore.currentParty) { partyMember in
                         Image(partyMember.imageName + "Bust")
                             .resizable()
+                            .frame(width: screenwidth / 5)
+                            .frame(height: 90)
                             .scaledToFit()
-                            .frame(width: screenwidth / 6)
-                            .padding(.horizontal, 5)
                             .mask {
                                 RoundedRectangle(cornerRadius: 10)
                             }
+                            .background(RoundedRectangle(cornerRadius: 10).foregroundColor(.gray))
                     }
-                    
+                    .padding(.horizontal, 5)
                 }
                 .frame(height: 80)
                 .padding(.bottom, 10)
@@ -51,8 +52,8 @@ struct CharacterSelectionView: View {
                         ForEach(characterStore.characters) { character in
                             CharacterGridView(character: character)
                                 .frame(width: screenwidth / 5)
+                                .modifier(CharacterShadowModifier(inParty: characterStore.currentParty.contains(character)))
                                 .onTapGesture {
-                                    // TODO: Append to currentParty if currentParty.count < 4 && character is not already in the array
                                     if characterStore.currentParty.count < 5 {
                                         if !characterStore.currentParty.contains(where: { selectedCharacter in
                                             selectedCharacter.name == character.name

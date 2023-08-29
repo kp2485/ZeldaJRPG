@@ -47,6 +47,7 @@ struct ZeldaCharacter: ZeldaEntity {
     
     // Character Bonuses (+) & Penalties (-)
     var deflectionRating: Double = 0.0
+    var experienceBonus: Double = 0.0
     
     var experienceReward: UInt
     

@@ -19,7 +19,7 @@ class MatchManager: ObservableObject {
     @Published var pastEncounters = [PastEncounter]()
     
     @Published var score = 0
-    @Published var remainingTurnTime: Int = Settings().maxTurnTime
+    @Published var remainingTurnTime: Int = Settings().turnTime
     
     var match: GKMatch?
     var otherPlayer: GKPlayer?
