@@ -15,9 +15,9 @@ struct RotateOnTap: ViewModifier {
     func body(content: Content) -> some View {
         content
             .rotation3DEffect(Angle(degrees: isRotating),
-                              axis: (x: CGFloat(0),
-                                     y: CGFloat(180),
-                                     z: CGFloat(0)
+                              axis: (x: 0,
+                                     y: 180,
+                                     z: 0
                                     )
             )
             .onTapGesture {
