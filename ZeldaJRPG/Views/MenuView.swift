@@ -35,14 +35,11 @@ struct MenuView: View {
                         }
                     }
                 }
-                
-                Text(matchManager.authenticationState.rawValue)
-                    .font(.headline.weight(.semibold))
-                    .opacity(0.6)
-                
+            
+                authenticationStateDisplay
+                // TODO: After logged in, animate to detail view for currently selected entity (character or enemy)
                 
                 Spacer()
-                
             }
         }
     }
@@ -144,6 +141,14 @@ struct MenuView: View {
         //        .modifier(RotateOnTap(isRotating: isRotating, degrees: 720.0))
     }
     
+    var authenticationStateDisplay: some View {
+        Text(matchManager.authenticationState.rawValue)
+            .padding(.horizontal, 15)
+            .padding(.vertical, 5)
+            .font(.headline.weight(.semibold))
+            .background(in: Capsule())
+            .opacity(0.6)
+    }
     
 }
 
