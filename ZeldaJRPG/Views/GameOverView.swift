@@ -17,6 +17,8 @@ struct GameOverView: View {
             
             VStack {
                 Text("Game Over 😕")
+                Text("Score: \(matchManager.score)")
+                // TODO: Add team score and player rankings if team game
             }
         }
     }
