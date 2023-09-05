@@ -49,6 +49,24 @@ struct ZeldaCharacter: ZeldaEntity {
     var deflectionRating: Double = 0.0
     var experienceBonus: Double = 0.0
     
+    var physicalDamageModifier: Double = 0.0
+    var fireDamageModifier: Double = 0.0
+    var iceDamageModifier: Double = 0.0
+    var shockDamageModifier: Double = 0.0
+    var maliceDamageModifier: Double = 0.0
+    var sandDamageModifier: Double = 0.0
+    var shadowDamageModifier: Double = 0.0
+    var waterDamageModifier: Double = 0.0
+    
+    var physicalProtectionModifier: Double = 0.0
+    var fireProtectionModifier: Double = 0.0
+    var iceProtectionModifier: Double = 0.0
+    var shockProtectionModifier: Double = 0.0
+    var maliceProtectionModifier: Double = 0.0
+    var sandProtectionModifier: Double = 0.0
+    var shadowProtectionModifier: Double = 0.0
+    var waterProtectionModifier: Double = 0.0
+    
     var experienceReward: UInt
     
     let skills: [Skill]
