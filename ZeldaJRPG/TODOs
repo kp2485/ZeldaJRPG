@@ -1,0 +1,19 @@
+This is a todo list!
+
+- Save/load character/enemy progression
+- Multiplayer 2v2
+- Multiplayer 4v4
+- Single Player Character Level Up Mode
+- Single Player Enemy Level Up Mode
+- Splash screen
+- Onboarding
+- Achievements
+
+
+This is a list of in progress features:
+
+- Multiplayer 1v1
+- Home view (MenuView)
+- Entity Model (ZeldaEntity Protocol -> ZeldaCharacter, ZeldaEnemy)
+- Object Model
+- Release Model (ZeldaRelease Protocol -> class for each release?)
