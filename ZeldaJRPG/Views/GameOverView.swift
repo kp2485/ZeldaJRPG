@@ -12,7 +12,20 @@ struct GameOverView: View {
     
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            background
+            
+            VStack {
+                Text("Game Over 😕")
+            }
+        }
+    }
+    
+    var background: some View {
+        Image("goldBackground")
+            .resizable()
+            .scaledToFill()
+            .edgesIgnoringSafeArea(.all)
     }
 }
 
