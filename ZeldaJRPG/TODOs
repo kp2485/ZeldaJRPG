@@ -17,3 +17,6 @@ This is a list of in progress features:
 - Entity Model (ZeldaEntity Protocol -> ZeldaCharacter, ZeldaEnemy)
 - Object Model
 - Release Model (ZeldaRelease Protocol -> class for each release?)
+
+
+This is a list of completed features:
