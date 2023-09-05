@@ -19,7 +19,7 @@ struct ContentView: View {
             if matchManager.isGameOver {
                 GameOverView(matchManager: matchManager)
             } else if matchManager.inGame {
-                GameView(matchManager: matchManager)
+                Multiplayer1v1GameView(matchManager: matchManager)
             } else {
                 MenuView(matchManager: matchManager)
             }

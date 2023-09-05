@@ -1,5 +1,5 @@
 //
-//  GameView.swift
+//  Multiplayer1v1GameView.swift
 //  ZeldaJRPG
 //
 //  Created by Kyle Peterson on 8/22/23.
@@ -7,9 +7,8 @@
 
 import SwiftUI
 
-struct GameView: View {
+struct Multiplayer1v1GameView: View {
     @ObservedObject var matchManager: MatchManager
-    
     @State var selectedAction: Skill? = nil
     
     func takeAction() {
@@ -26,6 +25,6 @@ struct GameView: View {
 
 struct GameView_Previews: PreviewProvider {
     static var previews: some View {
-        GameView(matchManager: MatchManager())
+        Multiplayer1v1GameView(matchManager: MatchManager())
     }
 }

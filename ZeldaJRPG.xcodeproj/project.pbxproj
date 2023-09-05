@@ -26,7 +26,7 @@
 		D60E78D82A94233000C3393F /* EncounterType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60E78D72A94233000C3393F /* EncounterType.swift */; };
 		D60E78DB2A94245700C3393F /* ZeldaLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60E78DA2A94245700C3393F /* ZeldaLocation.swift */; };
 		D60E78DF2A95202A00C3393F /* GameOverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60E78DE2A95202A00C3393F /* GameOverView.swift */; };
-		D60E78E12A9520E300C3393F /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60E78E02A9520E300C3393F /* GameView.swift */; };
+		D60E78E12A9520E300C3393F /* Multiplayer1v1GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60E78E02A9520E300C3393F /* Multiplayer1v1GameView.swift */; };
 		D60E78E32A95210100C3393F /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60E78E22A95210100C3393F /* MenuView.swift */; };
 		D60E78E82A958F9800C3393F /* RotateOnTap.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60E78E72A958F9800C3393F /* RotateOnTap.swift */; };
 		D60E78EB2A9599BB00C3393F /* AlbwBotwHylian-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = D60E78EA2A9599BB00C3393F /* AlbwBotwHylian-Regular.otf */; };
@@ -93,7 +93,7 @@
 		D60E78D72A94233000C3393F /* EncounterType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncounterType.swift; sourceTree = "<group>"; };
 		D60E78DA2A94245700C3393F /* ZeldaLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeldaLocation.swift; sourceTree = "<group>"; };
 		D60E78DE2A95202A00C3393F /* GameOverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverView.swift; sourceTree = "<group>"; };
-		D60E78E02A9520E300C3393F /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		D60E78E02A9520E300C3393F /* Multiplayer1v1GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Multiplayer1v1GameView.swift; sourceTree = "<group>"; };
 		D60E78E22A95210100C3393F /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		D60E78E72A958F9800C3393F /* RotateOnTap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotateOnTap.swift; sourceTree = "<group>"; };
 		D60E78EA2A9599BB00C3393F /* AlbwBotwHylian-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "AlbwBotwHylian-Regular.otf"; path = "ZeldaJRPG/Assets.xcassets/Fonts/AlbwBotwHylian-Regular.dataset/AlbwBotwHylian-Regular.otf"; sourceTree = SOURCE_ROOT; };
@@ -168,7 +168,7 @@
 			children = (
 				D6B404A32A83CF72005B0E96 /* ContentView.swift */,
 				D60E78E22A95210100C3393F /* MenuView.swift */,
-				D60E78E02A9520E300C3393F /* GameView.swift */,
+				D60E78E02A9520E300C3393F /* Multiplayer1v1GameView.swift */,
 				D60E78DE2A95202A00C3393F /* GameOverView.swift */,
 				D60E78732A89E77900C3393F /* CharacterSelectionView.swift */,
 				D60E78772A8C0CFE00C3393F /* CharacterGridView.swift */,
@@ -482,7 +482,7 @@
 				D6B404D92A83DB3E005B0E96 /* ZeldaReleaseName.swift in Sources */,
 				D60E78762A89E8BE00C3393F /* CharacterStore.swift in Sources */,
 				D6B404A42A83CF72005B0E96 /* ContentView.swift in Sources */,
-				D60E78E12A9520E300C3393F /* GameView.swift in Sources */,
+				D60E78E12A9520E300C3393F /* Multiplayer1v1GameView.swift in Sources */,
 				D60E78C32A93EDDB00C3393F /* MatchManager.swift in Sources */,
 				D60E78C82A94003300C3393F /* ZeldaObject.swift in Sources */,
 				D60E78782A8C0CFE00C3393F /* CharacterGridView.swift in Sources */,
