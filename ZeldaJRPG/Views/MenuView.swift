@@ -36,7 +36,6 @@ struct MenuView: View {
                     }
                 }
                 
-                
                 Text(matchManager.authenticationState.rawValue)
                     .font(.headline.weight(.semibold))
                     .opacity(0.6)
@@ -46,7 +45,6 @@ struct MenuView: View {
                 
             }
         }
-        
     }
     
     var background: some View {
@@ -72,10 +70,17 @@ struct MenuView: View {
             .kerning(5)
     }
     
+    var triforceButtonBackground: some View {
+        Image(systemName: "triangle.fill", variableValue: 1.0)
+            .font(.system(size: 130))
+            .opacity(0.5)
+            .shadow(radius: CGFloat(5))
+    }
+    
     var topTriforceButton: some View {
         Button {
+            // TODO: Navigate to matchmaking
             print("Battle button tapped")
-            // TODO: Start Matchmaking Menu
         } label: {
             ZStack {
                 triforceButtonBackground
@@ -100,6 +105,7 @@ struct MenuView: View {
     
     var leftTriforceButton: some View {
         Button {
+            // TODO: Navigate to character info view
             print("Character button tapped")
         } label: {
             ZStack {
@@ -122,6 +128,7 @@ struct MenuView: View {
     
     var rightTriforceButton: some View {
         Button {
+            // TODO: Navigate to enemy info view
             print("Enemies button tapped")
         } label: {
             ZStack {
@@ -137,12 +144,7 @@ struct MenuView: View {
         //        .modifier(RotateOnTap(isRotating: isRotating, degrees: 720.0))
     }
     
-    var triforceButtonBackground: some View {
-        Image(systemName: "triangle.fill", variableValue: 1.0)
-            .font(.system(size: 130))
-            .opacity(0.5)
-            .shadow(radius: CGFloat(5))
-    }
+    
 }
 
 struct MenuView_Previews: PreviewProvider {
